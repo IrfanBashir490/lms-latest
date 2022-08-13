@@ -1,0 +1,75 @@
+.teacher_page_wrapper .inputField {
+    width: 840px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px #4332a6;
+    background-color: #fff;
+}
+
+.oval {
+    width: 11px;
+    height: 25px;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4332a6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    width: 22px;
+    height: 22px;
+    background-color: #d8d4ee;
+    border-radius: 30px;
+}
+
+.teacher_page_wrapper .card-title p {
+    opacity: 0.5;
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.teacher_page_wrapper .card-body .card-text {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    color: #362c59;
+}
+
+.card-footer {
+    background-color: #f2f5f9;
+}
+
+.card-footer img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.card-footer p {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    color: #362c59;
+}

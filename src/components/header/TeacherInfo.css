@@ -1,0 +1,51 @@
+.info {
+    width: 100px;
+    height: 30px;
+    border-radius: 14px;
+    border: solid 0.5px #f1efff30;
+}
+
+.info:hover {
+    width: 100px;
+    height: 30px;
+    border-radius: 14px;
+    border: solid 0.5px #f25244;
+}
+
+.teacher__info_gap {
+    width: 10px;
+}
+
+.teacher__info-item {
+    width: 18px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 35px;
+}
+
+.teacher__info-value:hover {
+    color: #f25244;
+}
+
+.teacher__info-value {
+    width: 22px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 13px;
+}

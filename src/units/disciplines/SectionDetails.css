@@ -1,0 +1,337 @@
+.section_detail_card {
+    min-width: 1080px;
+    width: 1080px;
+    max-width: 1080px;
+    border-radius: 6px;
+    box-shadow: 0 0 25px 0 rgba(54, 44, 89, 0.2);
+    background-color: #fff;
+    margin-bottom: 24px;
+}
+
+.section_wrapper {
+    margin: 26px 45px;
+}
+
+.arrowstyle {
+    color: #4e56bd;
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    object-fit: contain;
+}
+
+.textstyle {
+    margin-left: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #554fbf;
+}
+
+.line {
+    border: solid 1px #d8d4ee;
+    background-color: #d8d4ee;
+    margin-top: 24px;
+    padding: 0;
+}
+
+.labels {
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #ada8d2;
+}
+
+.section_dropdown {
+    width: 400px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    background-color: white;
+    outline: none;
+    border: solid 1px #d8d4ee;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    color: #4332a6;
+}
+
+.section_dropdown_item {
+    width: 400px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f2f2f2;
+    color: #4332a6;
+}
+
+.thumbnail {
+    width: 90px;
+    height: 90px;
+    border-radius: 16px;
+    background-color: #f1efff;
+    margin-top: 13px;
+}
+
+.add_section_btn {
+    width: 150px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #4332a6;
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border: none;
+}
+
+input#section-standard-basic, textarea#section-standard-basic {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c40b3;
+}
+
+#section_boot_table td {
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #59548d;
+}
+
+.section_boot_table_row_odd {
+    height: 50px;
+    border-radius: 10px;
+    border: solid 1px #f1efff;
+    background-color: white;
+}
+
+.section_boot_table_row_even {
+    height: 50px;
+    border-radius: 10px;
+    border: solid 1px #f1efff;
+    background-color: #f1efff;
+}
+
+#section_boot_table th {
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #a49dca;
+    background-color: #ffffff;
+    vertical-align: middle;
+    text-align: left;
+    border: none;
+}
+
+#section_boot_table .filter-label {
+    display: none;
+}
+
+.pagination_text {
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #362c59;
+}
+
+.pagination_no {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #4332a6;
+}
+
+.boot_table_row_sel {
+    border: solid 1px #f76f63;
+}
+
+.radio_section {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search_section_css {
+    width: 450px;
+    height: 49px;
+}
+
+.search_ui_css {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    width: 480px;
+    height: 49px;
+    border-radius: 16px;
+    border: solid 1px #cacaca;
+    background-color: #f2f5f9;
+}
+
+.apply__button {
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #7eaa70;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.apply__button:hover {
+    background-color: rgb(1, 102, 45);
+}
+
+.input_spacing {
+    margin-top: 45px;
+}
+
+.type__wrapper {
+    margin: 39px 100px 40px 60px;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #28282c;
+}
+
+.type_box {
+    width: 920px;
+    height: 70px;
+    border-radius: 10px;
+    border: solid 1px #d8d4ee;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.cancel_button {
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    border: solid 1px #747373;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #747373;
+    background-color: #ffffff;
+    margin-top: 12px;
+    margin-left: 65px;
+}
+
+.cancel_button:hover {
+    background-color: #46484bcc;
+    color: #ffffff;
+}
+
+.create__button:hover {
+    background-color: rgb(1, 102, 45);
+}
+
+.create__button {
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #7eaa70;
+    border: 0;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+/* SUBJECTS */
+
+.content__div {
+    width: 110px;
+    height: 70px;
+    border-radius: 6px;
+    border: solid 1px #d8d4ee;
+    margin-top: 12px;
+}
+
+.content__div:last-child {
+    margin-left: 20px;
+}
+
+.label__info {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d2d3ee;
+    margin-top: 9px;
+}

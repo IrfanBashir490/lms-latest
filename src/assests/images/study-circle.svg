@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="13" cy="13" r="12" stroke="#4332A6" stroke-width="2"/>
+        <circle cx="9.1" cy="7.8" r="2.6" fill="#4332A6" transform="matrix(-1 0 0 1 18.2 0)"/>
+        <circle cx="17.55" cy="17.55" r="3.25" fill="#4332A6" transform="matrix(-1 0 0 1 35.1 0)"/>
+        <circle cx="17.55" cy="8.45" r="4.05" stroke="#4332A6" transform="matrix(-1 0 0 1 35.1 0)"/>
+        <circle cx="8.45" cy="16.25" r="4.05" stroke="#4332A6" transform="matrix(-1 0 0 1 16.9 0)"/>
+    </g>
+</svg>

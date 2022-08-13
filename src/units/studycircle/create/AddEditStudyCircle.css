@@ -1,0 +1,545 @@
+.studycircle_create {
+   width: 1080px;
+   height: 1350px;
+   border-radius: 16px;
+   box-shadow: 0 0 25px 0 rgba(54, 44, 89, 0.2);
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 15px;
+}
+
+.studycirlce_content {
+   width: 1080px;
+   height: 54px;
+   border-bottom: solid 1px #d2cee9;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+}
+
+.backclick {
+   margin-left: 20px;
+   margin-right: 22px;
+   width: 26px;
+   height: 26px;
+   background: transparent;
+}
+
+.studycircle_name {
+   width: 350px;
+   text-align: left;
+   font-size: 12px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #4332a6;
+}
+
+.studycircle_student_count {
+   margin-left: 350px;
+   margin-right: 87px;
+   width: 80px;
+   font-size: 12px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #cacaca;
+}
+
+.content_detail {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+.sidebar_detail {
+   min-width: 280px;
+   height: 1206px;
+   display: flex;
+   flex-direction: column;
+   border-right: solid 1px #d2cee9;
+   align-items: center;
+}
+
+.oval_info {
+   width: 190px;
+   height: 190px;
+   background-color: #f1efff;
+   border-radius: 110px;
+   margin-top: 29px;
+   margin-bottom: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.name_oval_info {
+   width: 84px;
+   height: 50px;
+   font-size: 20px;
+   color: #4332a6;
+   margin-bottom: 27px;
+}
+
+.student_oval_info {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.student_count {
+   font-size: 14px;
+   font-weight: 600;
+   color: #4332a6;
+   margin-left: 5px;
+}
+
+.sidebar_hor_line {
+   width: 200px;
+   border-bottom: solid 1px #d2cee9;
+}
+
+.sidebar_section {
+   max-width: 280px;
+   max-height: 460px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+/* ClassCircleListView CSS - Sidebar */
+
+.class_list_view {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.class_list_view .dot {
+   width: 16px;
+   height: 16px;
+   background-color: #4332a6;
+   border-radius: 16px;
+}
+
+.class_list_view .name {
+   width: 145px;
+   font-size: 14px;
+   font-weight: 600;
+   color: #4332a6;
+   margin-left: 10px;
+}
+
+.class_list_view .count {
+   font-size: 14px;
+   font-weight: 600;
+   color: #8f84b7;
+}
+
+.circlelist_more {
+   width: 65px;
+   color: #f25244;
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   background-color: transparent;
+   border: 0;
+}
+
+.circlelist_more:hover {
+   border-radius: 10px;
+   border: solid 1px #f25244;
+}
+
+/* ClassCircleInfoView CSS - Sidebar */
+
+.class_info_view {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 10px;
+   margin-bottom: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.class_info_view .name {
+   width: 160px;
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #534dbf;
+   text-align: start;
+}
+
+.class_info_view .count {
+   font-size: 14px;
+   font-weight: 600;
+   color: #4332a6;
+}
+
+.content_foot {
+   width: 1080px;
+   height: 87px;
+   border-top: solid 1px #d2cee9;
+}
+
+.mid_content {
+   width: 500px;
+   height: 1206px;
+   margin: 0;
+   padding-top: 20px;
+   padding-left: 20px;
+   border-right: solid 1px #d2cee9;
+   text-align: left;
+}
+
+.studycircle_dropdown {
+   width: 150px;
+   border-radius: 10px;
+   font-size: 12px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #362c59;
+   background-color: #f2f2f2;
+   outline: none;
+   border: none;
+}
+
+.studycircle_dropdown:hover {
+   color: #f25244;
+   background-color: #f2f2f2;
+}
+
+.studycircle_dropdown:active {
+   border: none;
+   background-color: #f2f2f2;
+}
+
+.studycircle_dropdown_item {
+   width: 150px;
+   font-size: 12px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #362c59;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-bottom: solid 1px #f2f2f2;
+}
+
+.circle_name {
+   margin-top: 30px;
+   margin-bottom: 40px;
+   text-align: left;
+}
+
+.head_labels {
+   font-size: 13px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #ada8d2;
+}
+
+.name_of_circle {
+   width: 180px;
+   color: #4332a6;
+   background: #ffffff;
+   border: none;
+   text-align: left;
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+}
+
+.dropdown-toggle, .dropdown-toggle::after {
+   float: left;
+   border: none;
+}
+
+/* COURSE ADD - CSS */
+
+.course_list_section {
+   max-height: 300px;
+   overflow: auto;
+}
+
+.coursename {
+   margin-left: 20px;
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #4c40b3;
+}
+
+.subject_name {
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #747373;
+   margin-left: 20px;
+   margin-top: 5px;
+}
+
+.radio_section {
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.course_content {
+   width: 450px;
+   height: 120px;
+   border-radius: 10px;
+   background-color: #f2f5f9;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+.course_content_left {
+   width: 320px;
+   margin-top: 10px;
+}
+
+.course_title {
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #4332a6;
+}
+
+.search_course_css {
+   width: 180px;
+   height: 36px;
+   align-self: center;
+   justify-self: center;
+   border-radius: 20px;
+   background-color: #f1efff;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.boot_add_course_table {
+   max-height: 350px;
+   overflow: auto;
+}
+
+#add_course_boot_table th {
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #d6d6d6;
+   background-color: #ffffff;
+   vertical-align: middle;
+   text-align: left;
+   border: none;
+}
+
+#add_course_boot_table td {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   vertical-align: middle;
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: left;
+   color: #4c40b3;
+   border: none;
+}
+
+#add_course_boot_table .filter-label {
+   display: none;
+}
+
+/* Create - CSS */
+
+.studycircle_type {
+   width: 450px;
+   height: 73px;
+   border-radius: 10px;
+   background-color: #f2f5f9;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.studycircle_type_left {
+   width: 320px;
+   margin-left: 15px;
+}
+
+.type_name {
+   width: 125px;
+   font-size: 13px;
+   font-weight: 600;
+   color: #747373;
+}
+
+.type_subtext {
+   width: 184px;
+   font-size: 12px;
+   font-weight: 200;
+   color: #747373;
+}
+
+.studycircle_student_info {
+   width: 200px;
+   height: 120px;
+   border-radius: 10px;
+   background-color: #f2f5f9;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 15px;
+}
+
+.content_chat {
+   width: 300px;
+   height: 1206px;
+   display: flex;
+   flex-direction: column;
+}
+
+.studycirclecreate_search {
+   width: 250px;
+   height: 40px;
+   margin-left: 25px;
+   margin-top: 25px;
+   margin-right: 23px;
+   border-radius: 20px;
+   background-color: #f1efff;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+#standard-basic {
+   font-family: Source Sans Pro;
+   color: #4332a6 !important;
+   font-size: 14px !important;
+   font-weight: 600 !important;
+   font-stretch: normal !important;
+   font-style: normal !important;
+   line-height: normal !important;
+   letter-spacing: normal !important;
+   text-overflow: ellipsis;
+}
+
+#standard-basic-helper-text {
+   display: inline;
+   text-align: right;
+   font-family: Source Sans Pro;
+   color: #cacaca !important;
+   font-size: 12px !important;
+   font-stretch: normal !important;
+   font-style: normal !important;
+   line-height: normal !important;
+   letter-spacing: normal !important;
+   text-overflow: ellipsis;
+}
+
+.studycirclecreate_student_list {
+   margin-top: 30px;
+}
+
+.cancel__button {
+   width: 140px;
+   height: 40px;
+   border-radius: 6px;
+   background-color: #d9d8dd;
+   color: #ffffff;
+   margin-left: 50px;
+   margin-top: 25px;
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   border: none;
+}
+
+.cancel__button:hover {
+   background-color: #46484bcc;
+}
+
+.save__button {
+   width: 140px;
+   height: 40px;
+   border-radius: 6px;
+   background-color: #7eaa70;
+   color: #ffffff;
+   margin-top: 25px;
+   margin-right: 50px;
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   border: none;
+}
+
+.save__button:hover {
+   background-color: rgb(1, 102, 45);
+}
+
+.parent_arrow {
+   width: 12.1px;
+   height: 7.6px;
+   object-fit: contain;
+   margin-left: 28px;
+}

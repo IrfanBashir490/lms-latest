@@ -1,0 +1,334 @@
+.assign_details_discussionWrapper {
+    width: 1040px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 0 rgba(54, 44, 89, 0.2);
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.assign_details_discussion_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.assign_details_discussion_col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.assign_details_discussion_header {
+    width: 1040px;
+    height: 60px;
+    border-bottom: solid 1px #d2cee9;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.assign_detail_leftdiscussion {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 18px;
+}
+
+.discussionchat_header {
+    height: 40px;
+    border-bottom: solid 1px #d2cee9;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+.assign_details_title_section {
+    max-width: 750px;
+    margin: 20px 0 0 60px;
+}
+
+.assignmentDisscussionstyling {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4332a6;
+}
+
+.assign_details_discussion_name {
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3e3465;
+}
+
+.assign_details_discussionchat_details {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3e3465;
+}
+
+.assigned_date_box {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #f1efff;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.assignedname_styling {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f84b7;
+    margin-left: 10px;
+}
+
+.assigneddate_styling {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f84b7;
+}
+
+.assignedtime_styling {
+    width: 70px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f84b7;
+    display: flex;
+    margin-top: -18px;
+    margin-left: 126px;
+}
+
+.assigned_duedate {
+    width: 151px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: #f1efff;
+    position: absolute;
+    left: 220px;
+    margin-top: 75px;
+}
+
+.assigned_time {
+    width: 190px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: #f1efff;
+    position: absolute;
+    left: 380px;
+    margin-top: 75px;
+}
+
+.teacher-class-discussion {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-left: 370px;
+}
+
+.assign_details_username {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #181226;
+}
+
+.assign_details_role {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #747373;
+}
+
+.chatside_bar {
+    min-width: 360px;
+    max-height: 900px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.chat-header {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f84b7;
+    margin-left: 25px;
+}
+
+.chat_selectwindow {
+    min-width: 680px;
+    max-height: 900px;
+    overflow: auto;
+    border-left: solid 1px #d2cee9;
+}
+
+.chat-rightside {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f84b7;
+    display: flex;
+    margin-left: 280px;
+}
+
+.chat_window_student_item {
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4332a6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f2f2f2;
+}
+
+.assign_details_dropdownchatwindow {
+    width: 60px;
+    height: 36px;
+    border-radius: 10px;
+    margin-left: 400px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    background-color: white;
+    color: #4332a6;
+    border: 1px solid #8f84b7;
+    outline: none;
+    text-align: center;
+}
+
+.resumeicon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid #8f84b7;
+    margin-left: 15px;
+}
+
+.resumeicon-styling {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-top: 7px;
+    margin-left: 1px;
+}
+
+.chatinfo_label {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chatinfo_window_label {
+    width: 190px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7f7f7f;
+    padding: 5px;
+}
+
+.sendmessage-profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin-left: 17px;
+    float: left;
+}
+
+.fileselect_btn {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    color: #4332a6;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bottom-messagesend {
+    width: 520px;
+    height: 34px;
+    border-radius: 8px;
+    border: solid 1px #d8d4ee;
+    outline: none;
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sendmessage_box {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: solid 1px #d8d4ee;
+}
+
+input#assign-details-standard-basic {
+    font-family: Source Sans Pro;
+    color: #4332a6 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+}
+
+.chatting_wrapper {
+    background-color: #c3e0ba;
+}

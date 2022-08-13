@@ -1,0 +1,269 @@
+.discussion-container {
+  width: 1080px;
+  max-height: 910px;
+  overflow: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 25px 0 rgba(54, 44, 89, 0.2);
+  background-color: white;
+}
+
+.back-discussion {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.interaction {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  white-space: nowrap;
+  width: 150px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.myInteractionsStyling {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #a39ec9;
+  margin-left: 124px;
+  display: flex;
+  flex-direction: row;
+}
+
+.myInteractionButton {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #4332a6;
+  margin-left: 124px;
+  display: flex;
+  flex-direction: row;
+}
+
+.myInteractionsStyling:hover, .myInteractionButton:hover {
+  background-color: #4332a6;
+  text-decoration: none;
+}
+
+.MyInteractions_text {
+  width: 97px;
+  height: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.icons8-collaboration {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-left: 8px;
+}
+
+.Repository-un-selected {
+  width: 16px;
+  height: 20px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.respositoryStyling {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #7aa86c;
+  margin-left: 10px;
+  display: flex;
+}
+
+.respositoryButton {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #489e2d;
+  margin-left: 10px;
+  display: flex;
+}
+
+.respositoryStyling:hover, .respositoryButton:hover {
+  background-color: #489e2d;
+  text-decoration: none;
+}
+
+.Repository_text {
+  height: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.createInteractionButton {
+  width: 255px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #4332a6;
+  text-decoration: none;
+  padding: 11px 102px 11px 103px;
+  margin-top: 13px;
+  float: right;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.createInteractionButton:hover {
+  background-color: darkblue;
+}
+
+.flex-styling {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 19px;
+  margin-left: 20px;
+}
+
+.create_discussion {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Discussed {
+  width: 34px;
+  height: 10px;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+  margin-top: 8px;
+  margin-left: 13px;
+  display: flex;
+}
+
+.Created {
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+  display: flex;
+  margin-top: 8px;
+  margin-left: 13px;
+}
+
+.globalpngStyling {
+  margin-left: 9px;
+  margin-right: 20px;
+}
+
+.piechartPngStyling {
+  margin-right: 20px;
+}
+
+.hidePngStyling {
+  margin-right: 21px;
+}
+
+.searchOval {
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.icons8-search-copy {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin: 8px;
+}
+
+.sortingAnswersIcon {
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.icons8-sorting-answers {
+  margin: 7px;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.filterdrop {
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  z-index: 999;
+  border-radius: 3px;
+  overflow: auto;
+  list-style: none;
+  text-align: left;
+  line-height: 40px;
+  width: 154px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 #d8d4ee;
+}
+
+.liststyle {
+  margin-left: 10%;
+  color: #542fbb;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.filterdrop_repo {
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  z-index: 999;
+  border-radius: 3px;
+  overflow: auto;
+  list-style: none;
+  text-align: left;
+  line-height: 40px;
+  width: 154px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 #d8d4ee;
+}
+
+.liststyle_repo {
+  margin-left: 10%;
+  color: #489e2d;
+  font-size: 14px;
+  font-weight: 600;
+}

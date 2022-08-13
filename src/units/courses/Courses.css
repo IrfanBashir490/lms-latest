@@ -1,0 +1,91 @@
+.createList_wrapper {
+  width: 1080px;
+  height: 980px;
+  border-radius: 6px;
+  box-shadow: 0 0 25px 0 rgba(54, 44, 89, 0.2);
+  background-color: #fff;
+  margin-bottom: 21px;
+}
+
+.leftArrow {
+  color: #4e56bd;
+  cursor: pointer;
+  float: left;
+  height: 16px;
+  object-fit: contain;
+}
+
+.arrowstyle1 {
+  color: #4e56bd;
+  cursor: pointer;
+  float: left;
+}
+
+.course_title {
+  margin-left: 20px;
+  float: left;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #554fbf;
+}
+
+.addCourse {
+  width: 150px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #4332a6;
+  color: #ffffff;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  border: none;
+  float: right;
+  margin-bottom: 20px;
+}
+
+#course_boot_table td {
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #59548d;
+}
+
+#course_boot_table tr:nth-child(odd) {
+  width: 1020px;
+  height: 40px;
+  background-color: #f1efff;
+  border-radius: 10px;
+}
+
+#course_boot_table tr:nth-child(even) {
+  background-color: #ffffff;
+  height: 80px;
+}
+
+#course_boot_table th {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #a49dca;
+  background-color: #ffffff;
+  vertical-align: middle;
+  text-align: left;
+  border: none;
+}

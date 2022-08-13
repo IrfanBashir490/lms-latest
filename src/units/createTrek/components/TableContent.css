@@ -1,0 +1,51 @@
+.create_checkbox {
+    padding-left: 10px;
+}
+
+.create_table__headings {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #ada8d3;
+}
+
+tr:first-child {
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #d8d4ee;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.tablebg:nth-child(odd) {
+    height: 40px;
+    background-color: #f1efff;
+    border-radius: 10px;
+}
+
+td {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #59548d;
+}
+
+tr:hover {
+    background-color: #fcfcff;
+    border-radius: 10px;
+}
+
+.table_row__heading {
+    background-color: #ffffff;
+    margin: 19px auto !important;
+}

@@ -1,0 +1,458 @@
+.assign_subcontainer_row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.assign_subContainer {
+  width: 827px;
+  height: 794px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.assign_select_list {
+  object-fit: contain;
+  background-color: transparent;
+  border: 0;
+}
+
+.assign_chat_list {
+  height: 930px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid #d2cee9;
+}
+
+.assignment_dropheader {
+  width: 827px;
+  height: 60px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.assign_backgroundwrapper {
+  background-color: #f1efff;
+  width: 827px;
+  height: 900px;
+  max-height: 1000px;
+  overflow: auto;
+}
+
+.assign_topline {
+  width: 827px;
+  height: 1px;
+  border-bottom: solid 1px #d8d4ee;
+}
+
+.assign_drop_outerbox {
+  width: 110px;
+  height: 35px;
+  border-radius: 6px;
+  border: solid 1px #d8d4ee;
+}
+
+.assign_drop_outerbox_2 {
+  width: 60px;
+  height: 34px;
+  border-radius: 6px;
+  border: solid 1px #d8d4ee;
+  margin-left: 10px;
+}
+
+.assign_due {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  display: flex;
+  margin-left: 30px;
+  margin-top: -16px;
+  margin-right: 5px;
+}
+
+.createAssignmentButton {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #4332a6;
+  color: white;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.assignment_dropdown_section {
+  width: 570px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.assignment_dropdown {
+  width: 120px;
+  height: 35px;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  background-color: white;
+  border: 1px solid #d8d4ee;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  color: #4332a6;
+}
+
+.assignment_dropdown:hover {
+  background-color: white;
+}
+
+.assignment_dropdown:active {
+  background-color: white;
+}
+
+.assignment_dropdown:focus {
+  background-color: white;
+}
+
+.assignment_dropdown_item {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #f2f2f2;
+  color: #4332a6;
+}
+
+.assign_search_imgwrap {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 40px;
+  border: solid 1px #d8d4ee;
+  outline: none;
+  background-color: transparent;
+}
+
+.assignment_details {
+  margin-left: 10px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #4332a6;
+}
+
+.assignmentTextStyling {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+.assignmentNumberStylingOval {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  background-color: white;
+  color: #4332a6;
+}
+
+#assignment-date-picker-dialog {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+}
+
+.assign_pie {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.assign_hide {
+  margin-right: 21px;
+}
+
+.assignmentdetailsstyling {
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #747373;
+}
+
+.contentTextStyling {
+  text-align: left;
+  font-size: 8px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+}
+
+.assisgnmenttimeStyling {
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #489e2d;
+}
+
+.assign_search {
+  width: 8px;
+  height: 19px;
+  border-radius: 45px;
+  background-color: #f1efff;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.assign_filter_card {
+  min-width: 150px;
+  height: 320px;
+  position: absolute;
+  top: 250px;
+  left: 627px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  z-index: 999;
+}
+
+.assignment_liststyle {
+  width: 180px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px;
+  color: #4332a6;
+}
+
+.searchlist {
+  width: 230px;
+  height: 34px;
+  border-radius: 17px;
+  background-color: #f1efff;
+  display: flex;
+  position: relative;
+  top: 12px;
+}
+
+.assign_textlabel {
+  width: 36px;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  color: #8f84b7;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.assign_chat_studenticon_completed {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin-top: 18px;
+}
+
+.assign_chat_studentname {
+  width: 140px;
+  height: 13px;
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  display: flex;
+  padding: 10px 0px 0px 5px;
+  margin-left: 60px;
+  margin-top: -45px;
+}
+
+.assign_chat_time_submitted {
+  width: 60px;
+  height: 10px;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #cacaca;
+  display: flex;
+  margin-top: -13px;
+  margin-left: 64px;
+}
+
+.assign_note {
+  width: 168px;
+  height: 26px;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #362c59;
+  margin-left: 64px;
+  margin-top: -20px;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.linebreak-right {
+  width: 198px;
+  height: 1px;
+  border-bottom: 1px solid #d8d4ee;
+  margin-top: 8px;
+  margin-left: 54px;
+}
+
+.assignment_item_btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  text-align: left;
+  margin-left: -5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #362c59;
+}
+
+.assignment_item_btn:hover {
+  color: #4332a6;
+}
+
+.assign-list-number-rectangle {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #cacaca;
+  margin-left: 10px;
+}
+
+.assignment_element {
+  width: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 16px;
+}
+
+.assignment_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.assignment_col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.icon_outline {
+  width: 50px;
+  height: 22px;
+  border-radius: 4px;
+  border: solid 1px #d8d4ee;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon_outline_val {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+}
+
+.input_checkbox_due {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: solid 1px #4332a6;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.input_checkbox_due:checked {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: solid 1px #4332a6;
+  background-color: #6850ef;
+}

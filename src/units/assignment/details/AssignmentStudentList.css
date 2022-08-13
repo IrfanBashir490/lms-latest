@@ -1,0 +1,64 @@
+.list_row {
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   align-items: center;
+}
+
+.studentList_view {
+   padding: 10px;
+   height: 54px;
+   margin-top: 10px;
+}
+
+.student_name_sel {
+   font-size: 16px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #181226;
+}
+
+.select_view:hover {
+   width: 320px;
+   height: 54px;
+   border-radius: 16px;
+   color: #4332a6;
+}
+
+.chatlist-icondiscussion {
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.student_assignment_submit {
+   width: 150px;
+   height: 15px;
+   opacity: 0.5;
+   font-size: 12px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: initial;
+}
+
+.chatlist_state {
+   display: flex;
+   flex-direction: column;
+   margin-left: 14px;
+   min-width: 200px;
+   align-items: flex-start;
+}
+
+.select_chat {
+   object-fit: contain;
+   background-color: transparent;
+   border: 0;
+}

@@ -1,0 +1,44 @@
+.assignemntlanding_wrapper {
+  width: 1080px;
+  height: 990px;
+  border-radius: 6px;
+  box-shadow: 0 0 25px 0 rgba(54, 44, 89, 0.2);
+  background-color: #ffffff;
+}
+
+.assignmentmain_row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.assignmentmain-header {
+  width: 1080px;
+  height: 60px;
+  border-bottom: 1px solid #d2cee9;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.assign-back-discussion {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 18px;
+  margin-right: 10px;
+}
+
+.assignment {
+  width: 58px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  white-space: nowrap;
+  display: flex;
+}

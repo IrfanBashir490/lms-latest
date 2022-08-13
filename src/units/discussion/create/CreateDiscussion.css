@@ -1,0 +1,439 @@
+.discussion_create {
+  width: 1080px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.discussion_create_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons8-left {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.discussionCreateStyling {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  margin-left: 14px;
+  margin-top: 15px;
+}
+
+.dis-text-styling {
+  width: 56px;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}
+
+.doubt-text-styling {
+  width: 37px;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #362c59;
+}
+
+.dis-link {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #4332a6;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.doubt-link {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f1efff;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.doubt-link:hover {
+  background-color: #d8d4ee;
+}
+
+.discussionNumberHolder {
+  margin-left: 44px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  color: #4332a6;
+  display: flex;
+  height: 16px;
+  width: 16px;
+  align-items: center;
+  padding: 2px;
+}
+
+.discussion-number {
+  width: 12px;
+  height: 15px;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+}
+
+.doubt-number {
+  width: 12px;
+  height: 15px;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.doubtsNumberHolder {
+  margin-left: 67px;
+  border-radius: 100%;
+  display: flex;
+  height: 16px;
+  width: 16px;
+  align-items: center;
+  padding: 2px;
+  background-color: #4332a6;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.discussion-select {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  display: flex;
+  border: none;
+  border-bottom: solid 1px #d8d4ee;
+  height: 58px;
+  width: 100%;
+  align-items: center;
+}
+
+.discussion-holder {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  width: 400px
+}
+
+.Discussion-Title {
+  width: 400px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+  text-align: left;
+}
+
+#discussion_create_dropdown_crs>.btn-primary, #discussion_create_dropdown_sub>.btn-primary, #discussion_create_dropdown_top>.btn-primary {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.discussion_create_dropdown {
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #d8d4ee;
+  text-align: left;
+  width: 400px;
+  padding: 5px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  background-color: white;
+  text-overflow: ellipsis;
+  color: #4332a6;
+}
+
+.discussion_create_dropdown:hover, .discussion_create_dropdown:active, .discussion_create_dropdown:focus {
+  color: #4332a6;
+  box-shadow: none;
+  background-color: white;
+}
+
+#discussion_create_dropdown_crs.show>.btn-primary.dropdown-toggle:active, #discussion_create_dropdown_sub.show>.btn-primary.dropdown-toggle:active, #discussion_create_dropdown_top.show>.btn-primary.dropdown-toggle:active {
+  box-shadow: none;
+  border: none;
+  color: #4332a6;
+  background-color: white;
+}
+
+.discussion_create_dropdown_item {
+  width: 400px;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #4332a6;
+  border-bottom: solid 1px #f2f2f2;
+}
+
+.image-uploading {
+  background: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #d8d4ee;
+  cursor: pointer;
+  width: 400px;
+  height: 60px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.form-control {
+  display: none;
+}
+
+.drop-name {
+  width: 36px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+  display: flex;
+}
+
+.Concept {
+  width: 43px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+}
+
+.concept-holder {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.Files {
+  width: 90px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.circle-holder {
+  display: flex;
+  margin-left: 95px;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 330px;
+}
+
+.cancel_button {
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #d9d8dd;
+  color: white;
+  margin-left: 440px;
+}
+
+.cancel_button:hover {
+  background-color: #46484bcc;
+}
+
+.create_button {
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #7eaa70;
+  color: white;
+  margin-left: 10px;
+}
+
+.create_button:hover {
+  background-color: rgb(1, 102, 45);
+}
+
+.view_button {
+  width: 140px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #8f84b7;
+  border: solid 1px #8f84b7;
+}
+
+.view_button:hover {
+  background-color: #a39ec9;
+}
+
+.hide_button {
+  width: 140px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4332a6;
+  color: white;
+}
+
+.hide_button:hover {
+  background-color: #a39ec9;
+}
+
+.linebreak {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #d8d4ee;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  width: 400px;
+  position: absolute;
+}
+
+.Group-Chats {
+  width: 75px;
+  height: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  margin-left: 100px;
+}
+
+.Attaching-files {
+  width: 95px;
+  height: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  margin-left: 68px;
+}
+
+.icons8-trash {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin: 10px 10px 10px 10px;
+}
+
+.trash-holder {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #ffe4c3;
+  cursor: pointer;
+  display: flex;
+  margin-left: 73px;
+}
+
+.Delete-Discussion {
+  width: 96px;
+  height: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #cacaca;
+  margin-left: 16px;
+}
+
+.viewPngStyling {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.view-text {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+}
+
+.hide-text {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+}

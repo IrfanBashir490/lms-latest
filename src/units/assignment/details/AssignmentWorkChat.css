@@ -1,0 +1,181 @@
+.textinfo_chat {
+    width: 613px;
+    height: 77px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #181226;
+    text-align: initial;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.sentMessage_wrap {
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #f1efff;
+    margin-top: 50px;
+    margin-left: 211px;
+}
+
+.sentmessage_style {
+    width: 382px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: right;
+    color: #181226;
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    text-align: initial;
+}
+
+.chatmessage-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.chattimedetails {
+    width: 135px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #747373;
+    margin-left: 400px;
+}
+
+.chatbox {
+    object-fit: contain;
+    background-color: transparent;
+    border: 0;
+}
+
+.receivedMessage_wrap {
+    width: 400px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #e7fae0;
+}
+
+.receivedmessage_style {
+    width: 350px;
+    height: 72px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #181226;
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    text-align: initial;
+}
+
+.info_wrapper {
+    margin-left: 286px;
+    width: 278px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #d8d4ee;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.info_style {
+    width: 220px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    text-align: initial;
+    margin-left: 45px;
+    margin-top: 4px;
+}
+
+.receivedtimedetails {
+    width: 135px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #747373;
+    position: relative;
+    left: 105px;
+}
+
+.showTextclass {
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.iconshow-style {
+    margin-left: 170px;
+    margin-top: -15px;
+}
+
+.send-to-board {
+    width: 100px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #4332a6;
+    top: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.send-to-boardtext {
+    width: 60px;
+    height: 13px;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.iconshow-stylereceived {
+    margin-left: 34px;
+    margin-top: 16px;
+}
+
+.doc-imgstyle {
+    display: flex;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 7px;
+}
+
+.chatinfo_label_receive {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}

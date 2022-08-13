@@ -1,0 +1,142 @@
+.timeline_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.timeline_col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.timeline_element {
+    width: 380px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: -1px;
+    margin-left: -1px;
+    padding: 20px;
+}
+
+.timeline_title {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #292929;
+}
+
+.timeline_subtitle {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #292929;
+}
+
+.timeline_comment_head {
+    font-size: 8px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+
+.timeline_comment_text {
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #767676;
+}
+
+.timeline_day {
+    width: 50px;
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4332a6;
+}
+
+.timeline_date {
+    opacity: 0.8;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4332a6;
+}
+
+.timeline_horln_left {
+    border-left: dashed 1px #9797974d;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.timeline_horln_right {
+    border-right: dashed 1px #9797976b;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.timeline_arrow_left {
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 7.5px 13.0px 7.5px 0;
+}
+
+.left_amber {
+    border-color: transparent #ffefe6 transparent transparent;
+}
+
+.left_sky {
+    border-color: transparent #e1ebf5 transparent transparent;
+}
+
+.left_gray {
+    border-color: transparent #ece7ff transparent transparent;
+}
+
+.timeline_arrow_right {
+    width: 0;
+    height: 0;
+    margin-right: 5px;
+    border-style: solid;
+    border-width: 7.5px 0 7.5px 13.0px;
+}
+
+.right_amber {
+    border-color: transparent transparent transparent #ffefe6;
+}
+
+.right_sky {
+    border-color: transparent transparent transparent #e1ebf5;
+}
+
+.right_gray {
+    border-color: transparent transparent transparent #ece7ff;
+}

@@ -1,0 +1,64 @@
+.chatitem_liststudents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.item_state_student {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  min-width: 175px;
+  align-items: flex-start;
+}
+
+.profile_img {
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+  border: solid 3px var(--button-on-dark-bg);
+}
+
+.name_student {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #362c59;
+}
+
+.last_active_time {
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+}
+
+.select_chat {
+  object-fit: contain;
+  background-color: transparent;
+  border: 0;
+}
+
+.image_chat {
+  width: 8px;
+  height: 10px;
+}
+
+.image_chat:hover {
+  background-color: transparent;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+}
+
+.name_student:hover {
+  color: rgb(242, 82, 68);
+  background-color: transparent;
+}

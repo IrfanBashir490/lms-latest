@@ -1,0 +1,82 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  grid-template-rows: 350px 1fr;
+  grid-template-areas: "Header BaseContent" "SideMenu BaseContent";
+  margin: 0 auto;
+  width: 1366px;
+  height: 100%;
+}
+
+.Header {
+  grid-area: Header;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.SideMenu {
+  position: absolute;
+  grid-area: SideMenu;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  top: 350px;
+}
+
+.BaseContent {
+  grid-area: BaseContent;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 30px;
+}
+
+.Bg {
+  height: 350px;
+  border-bottom-right-radius: 30px;
+  background: #4332a6;
+  box-shadow: 1px 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.mainbar {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagetitle {
+  width: 300px;
+  margin-top: -10px;
+  margin-right: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: white;
+}
+
+.searchbar {
+  height: 50px;
+  width: 500px;
+  border-radius: 25px;
+  text-align: left;
+  background-color: #221565;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-right: 16px;
+}

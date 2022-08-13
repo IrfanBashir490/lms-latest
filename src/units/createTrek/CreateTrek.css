@@ -1,0 +1,384 @@
+.create-_trek__card {
+  min-width: 1080px;
+  border-radius: 6px;
+  box-shadow: 0 0 25px 0 rgba(54, 44, 89, 0.2);
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+.trekHeading {
+  margin-left: 34px;
+  float: left;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+}
+
+.line {
+  border: solid 1px #d8d4ee;
+  background-color: #d8d4ee;
+  margin-top: 24px;
+  padding: 0;
+}
+
+.labels {
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #ada8d2;
+}
+
+input#standard-basic {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4c40b3;
+  margin-top: 13px;
+  width: 200px;
+}
+
+.cancel_button:hover {
+  background-color: #46484bcc;
+  color: #ffffff;
+}
+
+.create__button:hover {
+  background-color: rgb(1, 102, 45);
+}
+
+.cancel_button {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  border: solid 1px #8f84b7;
+  font-weight: 600;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8f84b7;
+  background-color: #ffffff;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+.create__button {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #7eaa70;
+  border: 0;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+
+.create__button:first-child {
+  margin-right: 10px;
+}
+
+.trek_wrapper {
+  padding: 0 15px;
+}
+
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+  width: 500px;
+  border-radius: 6px;
+  background-color: #d8d4ee;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #362c59;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+  height: 40px;
+}
+
+.MuiAccordionSummary-root {
+  height: 40px !important;
+  min-height: 40px !important;
+}
+
+.MuiAccordionDetails-root {
+  background-color: #fff;
+  border-bottom: 6px;
+  /* border: solid 1px #d8d4ee; */
+}
+
+.MuiAccordionDetails-root:nth-child(odd) {
+  font-family: Source Sans Pro;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  height: 40px;
+  color: #8f84b7;
+  margin: 10px 30px 10px 10px;
+  width: 460px;
+}
+
+.MuiAccordionDetails-root:nth-child(even) {
+  font-family: Source Sans Pro;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #362c59;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  margin-left: 10px;
+  width: 460px;
+  margin-bottom: 10px;
+}
+
+span span.MuiIconButton-label {
+  width: 15px;
+  height: 15px;
+  background-color: #c4c4c4;
+}
+
+.playIcon {
+  position: absolute;
+  top: 25px;
+  left: 14px;
+}
+
+.accordian_wrapper {
+  margin-top: 30px;
+  width: 500px;
+  border-radius: 6px;
+  border: solid 1px #d8d4ee;
+  min-height: 586px;
+  border-top-color: #fff;
+  position: relative;
+}
+
+.create_CNB_advanced {
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #747373;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  border: none;
+  color: #fff;
+  margin-right: 101px;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+
+.create_CNB_advanced:hover {
+  color: #fff;
+  background-color: #b1adad;
+}
+
+.create_CNB_quick:hover {
+  background-color: #7e69f1;
+  color: #fff;
+}
+
+.create_CNB_quick {
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #4332a6;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+
+.footer_wrapper {
+  margin-top: 103.5px;
+}
+
+.table {
+  border: none;
+}
+
+.table thead th {
+  font-family: Source Sans Pro;
+  font-size: 10px;
+  font-weight: 600;
+  border: none;
+  height: 40px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #362c59;
+  border-radius: 0;
+  vertical-align: inherit;
+  background-color: #d8d4ee;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f7f7f7;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4332a6;
+  height: 36px;
+  width: 470px;
+  border-radius: 6px;
+  margin: 15px auto;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4332a6;
+  height: 36px;
+}
+
+.table td {
+  border: none;
+  vertical-align: inherit;
+}
+
+.table_wrapper {
+  width: 500px;
+  min-height: 586px;
+  border-radius: 6px;
+  border: solid 1px #d8d4ee;
+  margin-top: 30px;
+  border-top-color: #fff;
+}
+
+.expand-cell-header {
+  color: #d8d4ee !important;
+}
+
+.MuiAccordionSummary-content p {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #362c59;
+}
+
+.MuiAccordionSummary-root .MuiAccordionSummary-content p {
+  padding: 0px 4px;
+}
+
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+  margin-bottom: 20px;
+}
+
+.MuiCollapse-wrapperInner .MuiAccordionDetails-root p {
+  font-size: 13px;
+  font-family: Source Sans Pro;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #362c59;
+  text-align: left;
+}
+
+.MuiFormControlLabel-root {
+  margin-right: 13px !important;
+}
+
+.MuiCollapse-wrapperInner {
+  background-color: #fff;
+}
+
+.table_footer_wrapper {
+  min-height: 62.5px;
+}
+
+.table_footer_content {
+  display: flex;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  margin-left: 58px;
+  margin-top: 32.5px;
+}
+
+.react-bootstrap-table {
+  height: 481.5px;
+}
+
+.timer_div {
+  width: 53px;
+  height: 28px;
+  border-radius: 6px;
+  border: solid 1px #d8d4ee;
+  background-color: #f1efff;
+  padding-top: 5px;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  margin-left: 77px;
+}

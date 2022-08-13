@@ -1,0 +1,80 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ovalitem {
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to bottom, #ffead2, #ffffff);
+    border-radius: 250px;
+}
+
+.oval-solid {
+    border: solid 2px #000000;
+}
+
+.oval-dashed {
+    border: dashed 2px #000000;
+}
+
+.ovalinfo {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4332a6;
+}
+
+.value {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4332a6;
+}
+
+.item-sm {
+    width: 75px;
+    height: 75px;
+}
+
+.item-md {
+    width: 100px;
+    height: 100px;
+}
+
+.item-lg {
+    width: 125px;
+    height: 125px;
+}
+
+.ovalavatar-sm {
+    position: relative;
+    top: -10px;
+    right: -10px;
+}
+
+.ovalavatar-md {
+    position: relative;
+    top: -20px;
+    right: -20px;
+}
+
+.ovalavatar-lg {
+    position: relative;
+    top: -30px;
+    right: -30px;
+}

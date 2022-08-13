@@ -1,0 +1,198 @@
+.cfw-conversation-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  padding-bottom: 25px;
+  background-color: #f4f7f9;
+  z-index: 9999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 90vw;
+  max-width: 370px;
+  height: 400px;
+}
+
+.cfw-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.cfw-header-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: 600;
+  width: 320px;
+  color: #4332a6;
+}
+
+.cfw-separator {
+  height: 10px;
+  background-color: #4332a6;
+}
+
+.cfw-title {
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.cfw-close-button {
+  display: block;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.cfw-close-svg:hover {
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.85);
+}
+
+.cfw-conversation-container .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.cfw-messages-container {
+  background-color: #fff;
+  height: 100vh;
+  max-height: 410px;
+  overflow-y: scroll;
+  padding-top: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cfw-message {
+  margin: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  word-wrap: break-word;
+}
+
+.cfw-response {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.cfw-response .cfw-message-text {
+  background-color: #f4f7f9;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 215px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.cfw-timestamp {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.cfw-client {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 10px;
+  text-align: end;
+  align-items: flex-end;
+}
+
+.cfw-client .cfw-message-text {
+  background-color: #a3eaf7;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 215px;
+  text-align: left;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+.cfw-client .cfw-timestamp {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.cfw-message-text p {
+  margin: 0;
+}
+
+.cfw-message-text img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.cfw-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.cfw-sender {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f4f7f9;
+  height: 50px;
+  padding: 5px;
+}
+
+.cfw-sender.expand {
+  height: 75px
+}
+
+textarea::placeholder {
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  font-size: 14px;
+}
+
+.cfw-new-message {
+  width: 100%;
+  border: 0;
+  background-color: #f4f7f9;
+  height: 30px;
+  padding-left: 15px;
+  resize: none;
+  font-size: 14px;
+}
+
+.cfw-new-message:focus {
+  outline: none;
+}
+
+.cfw-new-message.expand {
+  height: 40px
+}
+
+.cfw-send {
+  background: #f4f7f9;
+  border: 0
+}
+
+.cfw-send .cfw-send-icon {
+  height: 25px
+}

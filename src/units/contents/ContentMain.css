@@ -1,0 +1,372 @@
+/* LANDING CSS */
+
+a:hover {
+    text-decoration: none;
+}
+
+.contentcard {
+    width: 1080px;
+    max-height: 970px;
+    border-radius: 6px;
+    box-shadow: 0 0 25px 0 rgba(54, 44, 89, 0.2);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.content_header {
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.btn_back {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.textstyle {
+    width: 250px;
+    text-align: left;
+    color: #4e56bd;
+    margin-left: 10px;
+    margin-right: 470px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.repobtn, .libbtn {
+    color: #a39ec9;
+}
+
+.repobtn:hover {
+    color: white;
+    background-color: #4332a6;
+}
+
+.libbtn:hover {
+    color: white;
+    background-color: #489E2D;
+}
+
+.navistyle {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #d8d4ee;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+
+.repostyle, .repostyle:hover {
+    border-radius: 10px;
+    background-color: #4332a6;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.libstyle, .libstyle:hover {
+    border-radius: 10px;
+    background-color: #489e2d;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* FILTER VIEW CSS */
+
+.filter_view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.filter_view_col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filter_view_img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filter_view_btn_lib {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: solid 1px #d8d4ee;
+    background-color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.filter_view_btn_lib:hover, .filter_view_btn_lib_active {
+    border: solid 1px #7eaa70;
+    background-color: #c3e0ba;
+}
+
+.filter_view_name_lib {
+    font-size: 14px;
+    color: #489e2d;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.filter_view_value_lib {
+    font-size: 12px;
+    color: #7eaa70;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.filter_view_btn_repo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: solid 1px #d8d4ee;
+    background-color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.filter_view_btn_repo:hover, .filter_view_btn_repo_active {
+    border: solid 1px #8f84b7;
+    background-color: #f1efff;
+}
+
+.filter_view_name_repo {
+    font-size: 14px;
+    color: #4332a6;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.filter_view_value_repo {
+    font-size: 12px;
+    color: #8f84b7;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+/* PIE CHARTS CSS */
+
+.piestyle {
+    width: 160px;
+    height: 120px;
+    border-radius: 10px;
+    border: solid 1px #d8d4ee;
+    background-color: #ffffff;
+    margin-left: 20px;
+    float: left;
+}
+
+/* CONTENT TABLE CSS */
+
+.fontadjust {
+    text-align: initial;
+}
+
+.name_style_lib {
+    font-size: 10px;
+    color: #489e2d;
+    border-radius: 6px;
+    background-color: #e7fae0;
+    padding: 5px;
+    margin-top: 5%;
+}
+
+.name_style_repo {
+    font-size: 10px;
+    color: #4332a6;
+    border-radius: 6px;
+    background-color: #d8d4ee;
+    padding: 5px;
+    margin-top: 5%;
+}
+
+.recordstyle {
+    border-radius: 6px;
+    border: solid 1px #d8d4ee;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f84b7;
+    padding: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 30px;
+}
+
+.btn_lib_style {
+    border-radius: 6px;
+    background-color: #489e2d;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 140px;
+    height: 30px;
+    margin-left: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.link_style_lib {
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a3fb3;
+    border-radius: 6px;
+    background-color: #c3e0ba;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 30px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+.link_style_repo {
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a3fb3;
+    border-radius: 6px;
+    background-color: #d8d4ee;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 680px;
+    width: 180px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.indexhead {
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ada8d3;
+}
+
+.checkboxstyle {
+    padding-left: 10px;
+}
+
+.namestyle {
+    padding-left: 40px;
+    min-width: 250px;
+    text-align: initial;
+}
+
+.authorstyle {
+    padding-left: 150px;
+    text-align: initial;
+}
+
+.durationstyle {
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+.iconstyle {
+    padding-left: 50px;
+}
+
+.circlestyle {
+    padding-right: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+.tablebg:nth-child(odd) {
+    height: 40px;
+    background-color: #f1efff;
+    border-radius: 10px;
+}
+
+td {
+    padding-top: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #59548d;
+    padding-top: 10px;
+}
+
+tr:hover {
+    background-color: #fcfcff;
+    border-radius: 10px;
+}

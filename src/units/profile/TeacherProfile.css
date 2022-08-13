@@ -1,0 +1,273 @@
+.teacher-profile__wrapper {
+  border-radius: 10px;
+  background-color: #ffffff;
+  max-width: 1020px;
+}
+
+.teacher-backgroundProfile__wrapper {
+  display: flex;
+}
+
+.teacher-profile__picture {
+  max-width: 220px;
+  max-height: 140px;
+  border-radius: 4px;
+}
+
+.teacher-background__profile {
+  max-width: 300px;
+  height: 181px;
+  border-radius: 4px;
+  border: solid 1px #d8d4ee;
+}
+
+.teacher-background__profile__icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.teacher-name {
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4332a6;
+}
+
+.teacher-background__profile__value {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  color: #4332a6;
+}
+
+.teacher-background__profile__item {
+  display: flex;
+}
+
+.teacher-background__info-item {
+  border-radius: 4px;
+  background-color: #d8d4ee;
+  height: 80px;
+  width: 200px;
+}
+
+.teacher-background__infoStudent {
+  display: flex;
+  padding: 20px;
+}
+
+.teacher-background__profile__StudentIcon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  top: 2vh;
+}
+
+.inputField {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #f1efff;
+  padding: 10px;
+  border: none;
+  color: #4332a6 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+}
+
+.addInstitution__button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #4332a6;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.addInstitution__button:hover {
+  background-color: #9e8ef8;
+}
+
+.cancel__button {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #d9d8dd;
+  color: #ffffff;
+}
+
+.cancel__button:hover {
+  background-color: #46484bcc;
+}
+
+.save__button {
+  width: 140px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #7eaa70;
+  color: #ffffff;
+}
+
+.save__button:hover {
+  background-color: rgb(1, 102, 45);
+}
+
+.subject__class {
+  padding: 0;
+  margin: 0;
+}
+
+.table thead th {
+  border: 0 !important;
+  border-bottom: 0 !important;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+}
+
+.table td {
+  border-radius: 4px;
+  background-color: #f1efff;
+  text-align: left;
+}
+
+label {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f84b7;
+}
+
+.hr {
+  height: 2px !important;
+  background-color: #d8d4ee !important;
+  border: solid 1px var(--light-lavender) !important;
+}
+
+.ant-tabs-nav-scroll {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+  height: 59px;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+  margin-left: 31px;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6 !important;
+  margin-top: 10px;
+  margin-right: 62px;
+  margin-left: 30px;
+}
+
+.ant-tabs-ink-bar {
+  background-color: #4332a6 !important;
+  width: 15px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: -6px;
+}
+
+.edit-image {
+  position: absolute;
+  z-index: 1;
+  right: 6%;
+  width: 35px;
+  height: 35px;
+}
+
+.ant-tabs-bar.ant-tabs-top-bar {
+  background-color: #f2f5f9;
+  min-width: 100%;
+}
+
+.teacher-background__info-item-text {
+  width: 106px;
+  height: 18px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+}
+
+.teacher-background__info-item-number {
+  width: 66px;
+  height: 31px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+}
+
+tr {
+  margin: 10px auto;
+}
+
+td {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4332a6;
+}
+
+.MuiInputBase-root .MuiInputBase-input {
+  font-family: Source Sans Pro;
+  color: #4332a6 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+}
+
+.ant-tabs.ant-tabs-top.ant-tabs-line {
+  border-radius: 4px;
+}
+
+div#tab-myPage {
+  margin-left: 0;
+}
